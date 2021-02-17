@@ -1,0 +1,13 @@
+app:
+  name: oshop
+
+jwt:
+  header: Authorization
+  expires_in: 600 # 10 minutes
+  secret: XXXXXXXXXXx
+  cookie: AUTH-TOKEN
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.bfwg: DEBUG
